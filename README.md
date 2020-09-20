@@ -13,12 +13,10 @@ Edit lib/Globals.py for event management. See wiki for more data.
 ## Usage
 `python3 EventTimer.py`
 
-## Error   
-See Wiki
+## Error and Warning
+See Warning.md. See Event Wiki
 
 ## Todo
 1. Send notification `libnotifysend` and `slack notification` when timer is reached.
 2. IST Time format to be added
 
-## Warning
-Check WARNING file
