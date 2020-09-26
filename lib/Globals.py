@@ -5,7 +5,7 @@ from lib.TimeFunctions import seconds_from_time
 event_1 = {
     "event_name":"BsidesBOS CTF",
     "event_date":"2020-09-26",
-    "event_time":"19:00:00",
+    "event_time":"09:00:00",
     "event_timeformat":"EST",
 }
 """
