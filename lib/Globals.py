@@ -3,11 +3,13 @@ from lib.TimeFunctions import seconds_from_time
 # Note: For GMT only if event occurs in GMT+2 then subtract 2 hour, i.e if sth start in 17:00:00 GMT +2 then, set 15:00:00 with timeformat GMT
 
 event_1 = {
-    "event_name":"BsidesBOS CTF",
-    "event_date":"2020-09-26",
-    "event_time":"09:00:00",
-    "event_timeformat":"EST",
+    "event_name":"Pentesterlab subscription end",
+    "event_date":"2020-12-01",
+    "event_time":"18:28:00",
+    "event_timeformat":"GMT",
+    "event_description":"For personal use!",
 }
+
 """
 event_2 = {
     "event_name":"HTB Crossfit Release",
