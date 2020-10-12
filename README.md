@@ -14,7 +14,7 @@ Edit lib/Globals.py for event management. See wiki for more data.
 `python3 EventTimer.py`
 
 ## Error and Warning
-See Warning.md. See Event Wiki
+See Warning.md. See Event Wiki. Sometime base10 int error means event is finished and must be removed or commented out
 
 ## Todo
 1. Send notification `libnotifysend` and `slack notification` when timer is reached.
