@@ -24,7 +24,6 @@ event_3 = {
     "event_timeformat":"EST",
     "event_description":"https://www.verizonmedia.com/insights/h1-2010--overview"
 }
-"""
 event_4 = {
     "event_name":"CyberSecurity Challenge 2020",
     "event_date":"2020-10-09",
@@ -32,6 +31,7 @@ event_4 = {
     "event_timeformat":"CEST",
     "event_description":"Reply Challenge"
 }
+"""
 
 # Anything having 5:45:00 is GMT +5:45 (timezone for Nepal)
 pacific_to_ktm = seconds_from_time('00:45:00')
