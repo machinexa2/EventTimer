@@ -1,12 +1,10 @@
-from time import sleep
 from termcolor import colored
 
-from lib.Globals import *
-from lib.TimeFunctions import *
+from lib.Globals import ColorObj
+from lib.TimeFunctions import seconds_from_time, time_from_seconds
 
 def print_from_seconds(second, edict):
-    india_diff = seconds_from_time('00:15:00')
-    gmt_diff = seconds_from_time('05:45:00')
+    gmt_diff, india_diff = seconds_from_time('05:45:00'), seconds_from_time('00:15:00')
     nepal = colored(time_from_seconds(second), color='cyan')
     india = colored(time_from_seconds(second-india_diff), color='yellow')
     universal = colored(time_from_seconds(second-gmt_diff), color='red')
