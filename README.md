@@ -1,4 +1,7 @@
 # Event Timer
+[![Code Grade](https://www.code-inspector.com/project/15088/status/svg)](https://frontend.code-inspector.com/public/project/15088/EventTimer/dashboard)
+[![Code Quality](https://www.code-inspector.com/project/15088/score/svg)](https://frontend.code-inspector.com/public/project/15088/EventTimer/dashboard)
+
 ## Description
 Run countdown for your event from your computer based on event details. Lets say there is some event and you want all that stuff being displayed in terminal or your are too lazy to visit certain website then Event Timer comes to rescue.
 
