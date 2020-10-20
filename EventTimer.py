@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 from os import system
-from termcolor import colored
 from time import sleep
 from datetime import date, datetime
 
-from lib.TimeFunctions import *
-from lib.DateFunctions import *
-from lib.PrintFunctions import *
+from lib.TimeFunctions import seconds_from_time, time_from_seconds
+from lib.PrintFunctions import print_from_seconds
+from lib.DateFunctions import seconds_from_date, date_from_seconds
 from lib.Globals import *
 
 current_time = seconds_from_time(datetime.now().strftime("%H:%M:%S"))
