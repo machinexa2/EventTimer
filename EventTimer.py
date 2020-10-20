@@ -6,7 +6,7 @@ from datetime import date, datetime
 from lib.TimeFunctions import seconds_from_time
 from lib.PrintFunctions import print_from_seconds
 from lib.DateFunctions import seconds_from_date, date_from_seconds
-from lib.Globals import gmt_to_ktm, est_to_ktm, cest_to_ktm, pacific_to_ktm
+from lib.Globals import gmt_to_ktm, est_to_ktm, cest_to_ktm, pacific_to_ktm, ColorObj
 from lib.Globals import *
 
 current_time = seconds_from_time(datetime.now().strftime("%H:%M:%S"))
