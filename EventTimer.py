@@ -9,7 +9,7 @@ from lib.DateFunctions import seconds_from_date, date_from_seconds
 from lib.Globals import *
 
 current_time = seconds_from_time(datetime.now().strftime("%H:%M:%S"))
-current_date = seconds_from_date(date.today().isoformat()) 
+current_date = seconds_from_date(date.today().isoformat())
 current_seconds = current_time + current_date
 
 system('clear')
