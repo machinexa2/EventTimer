@@ -29,9 +29,10 @@ def EventSeconds(edict: dict):
 def CounterSeconds(edict):
     global current_seconds
     event_seconds = EventSeconds(edict)
-    date, seconds = date_from_seconds(event_seconds-current_seconds)
-    counter_seconds = seconds_from_date(date) + int(seconds)
+    cdate, seconds = date_from_seconds(event_seconds-current_seconds)
+    counter_seconds = seconds_from_date(cdate) + int(seconds)
     return counter_seconds
+
 if __name__ == '__main__':
     counter_1 = CounterSeconds(event_1)
     #counter_2 = CounterSeconds(event_2)
