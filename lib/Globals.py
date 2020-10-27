@@ -12,11 +12,12 @@ event_1 = {
 
 """
 event_2 = {
-    "event_name":"LFI CTF",
-    "event_date":"2020-10-05",
-    "event_time":"22:00:00",
-    "event_timeformat":"EST"
+    "event_name":"Time HTB Release",
+    "event_date":"2020-10-24",
+    "event_time":"19:00:00",
+    "event_timeformat":"GMT"
 }
+
 event_3 = {
     "event_name":"h1-2010 Virtual Hacking",
     "event_date":"2020-09-22",
