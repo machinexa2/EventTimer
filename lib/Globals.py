@@ -10,28 +10,29 @@ event_1 = {
     "event_description":"For personal use!",
 }
 
-"""
 event_2 = {
-    "event_name":"Time HTB Release",
-    "event_date":"2020-10-24",
-    "event_time":"19:00:00",
-    "event_timeformat":"GMT"
+    "event_name":"None",
+    "event_date":"2030-01-01",
+    "event_time":"12:00:00",
+    "event_timeformat":"GMT",
+    "event_description":"None",
 }
 
 event_3 = {
-    "event_name":"h1-2010 Virtual Hacking",
-    "event_date":"2020-09-22",
-    "event_time":"11:00:00",
-    "event_timeformat":"EST",
-    "event_description":"https://www.verizonmedia.com/insights/h1-2010--overview"
+    "event_name":"None",
+    "event_date":"2030-01-01",
+    "event_time":"12:00:00",
+    "event_timeformat":"GMT",
+    "event_description":"None"
 }
 event_4 = {
-    "event_name":"CyberSecurity Challenge 2020",
-    "event_date":"2020-10-09",
-    "event_time":"19:30:00",
-    "event_timeformat":"CEST",
-    "event_description":"Reply Challenge"
+    "event_name":"None",
+    "event_date":"2030-01-01",
+    "event_time":"12:00:00",
+    "event_timeformat":"GMT",
+    "event_description":"None"
 }
+"""
 """
 
 # Anything having 5:45:00 is GMT +5:45 (timezone for Nepal)
